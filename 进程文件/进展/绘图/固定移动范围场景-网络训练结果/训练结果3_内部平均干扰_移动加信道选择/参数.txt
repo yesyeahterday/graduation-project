@@ -1,0 +1,43 @@
+#env参数
+grid_size=100
+move_scope=1
+power_level=1
+jammer_scope= 80
+sum_power=20
+node_scope=6
+noise_power=0.0001
+
+""" node_positions=[(30, 80), (70, 80), (30, 60), (70, 60), (50, 40)]
+jammer_position=(5,20) """
+
+node_positions=[(30, 70), (30, 30), (70, 30), (70, 70)]
+jammer_position=(10,50)
+
+num_node=len(node_positions)
+num_channel=len(node_positions) + 1
+jammer_mode = JAMMER_MODE.average
+enable_node_move = True
+enable_power_control = True
+
+#网络参数
+actor_hidden_layers = [256,2048,1024]
+critic_hidden_layers = [256,2048,1024,256,64]
+gamma=0.95
+tau=0.005
+critic_lr=1e-3
+actor_lr = 1e-3
+update_interval = 1
+
+#训练参数
+episodes = 500  # 指定训练周期
+steps = 80  # 每个周期的最大步数
+time_per_step = 1
+batch_size = 64 # 批量大小
+buffer_size = 5000000
+buffer_start_train_size = 64
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+
+#测试参数
+test_model =  True
+epilson_max = 1.0
+epilson_min = 0.05

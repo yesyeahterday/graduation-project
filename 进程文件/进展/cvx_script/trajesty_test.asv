@@ -1,0 +1,106 @@
+clc; clear; close all;
+
+% 初始化参数
+N = 180; % 时隙数目
+M = 2; % 无人机数量
+q_initial = [200, 800; 800, 800]; % 无人机初始位置
+q_jammer_initial = [500, 500]; % 干扰节点初始位置
+P_k = 1.5; % 无人机发射功率
+P_j = 1.5; % 干扰节点发射功率
+sigma2 = 10^(-12); % 噪声功率
+beta0 = 10^(-5); % 信道增益常数
+max_iter = 100; % 最大迭代次数
+tol = 1e-6; % 收敛阈值
+
+% 初始化无人机位置
+q = repmat(q_initial, [1, 1, N]); % q[i][n] 表示无人机i在第n个时隙的位置
+
+% 初始化干扰节点位置
+q_jammer = zeros(2, N);
+for n = 1:N
+    q_jammer(:, n) = q_jammer_initial' + [n * 1; 0]; % 干扰节点以1m/时隙沿x轴运动
+end
+
+% SCA迭代
+for iter = 1:max_iter
+    % 计算当前的信道增益
+    h_ik = zeros(M, M, N);
+    h_ij = zeros(M, N);
+    for n = 1:N
+        for i = 1:M
+            for k = 1:M
+                if k ~= i
+                    h_ik(i, k, n) = beta0 / norm(q(:,i,n) - q(:,k,n))^2;
+                end
+            end
+            h_ij(i, n) = beta0 / norm(q(:,i,n) - q_jammer(:, n))^2;
+        end
+    end
+    
+    % 使用CVX求解凸优化问题
+    cvx_begin
+        variable q_new(2, M, N) % 新的无人机位置
+        maximize 0
+        for n = 1:N
+            for i = 1:M
+                for k = 1:M
+                    if k ~= i
+                        % 一阶泰勒展开近似信道增益
+                        d_ik_r = norm(q(:,i,n) - q(:,k,n))^2;
+                        d_ij_r = norm(q(:,i,n) - q_jammer(:, n))^2;
+                        d_ik_new = d_ik_r + 2 * (q(:,i,n) - q(:,k,n))' * (q_new(:,i,n) - q_new(:,k,n) - q(:,i,n) + q(:,k,n));
+                        d_ij_new = d_ij_r + 2 * (q(:,i,n) - q_jammer(:, n))' * (q_new(:,i,n) - q_jammer(:, n) - q(:,i,n) + q_jammer(:, n));
+                        
+                        % 近似信道增益
+                        h_ik_new = beta0 / d_ik_new;
+                        h_ij_new = beta0 / d_ij_new;
+                        
+                        % 近似传输速率
+                        R_ik_new = log(1 + (P_k * h_ik_new) / (P_j * h_ij_new + sigma2)) / log(2);
+                        
+                        % 添加到目标函数
+                        maximize(maximize + R_ik_new);
+                    end
+                end
+            end
+        end
+        subject to
+            % 无人机位置约束
+            for n = 1:N
+                for i = 1:M
+                    norm(q_new(:,i,n) - q_initial(i,:)') <= 50; % 无人机不能超出初始位置50米
+                end
+            end
+            % 无人机移动距离约束
+            for n = 2:N
+                for i = 1:M
+                    norm(q_new(:,i,n) - q_new(:,i,n-1)) <= 1; % 无人机每一步移动距离不超过1米
+                end
+            end
+            % 干扰节点运动约束
+            for n = 1:N
+                q_jammer(:, n) == q_jammer_initial' + [n * 1; 0]; % 干扰节点以1m/时隙沿x轴运动
+            end
+    cvx_end
+    
+    % 更新无人机位置
+    q = q_new;
+    
+    % 检查收敛条件
+    if iter > 1 && norm(q_new - q_old) < tol
+        break;
+    end
+    q_old = q_new;
+end
+
+% 绘制无人机和干扰节点的轨迹
+figure; hold on; grid on;
+colors = ['r', 'b'];
+for i = 1:M
+    plot(squeeze(q(1, i, :)), squeeze(q(2, i, :)), [colors(i), '-o'], 'LineWidth', 1.5);
+end
+plot(500:500+N-1, repmat(500, 1, N), 'k--', 'LineWidth', 2); % 干扰节点轨迹
+legend('无人机 1', '无人机 2', '干扰节点');
+xlabel('X 坐标 (m)');
+ylabel('Y 坐标 (m)');
+title('无人机轨迹优化');
