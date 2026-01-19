@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="503.80435"
+   height="312.63586"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="最小生成树.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.4533333"
+     inkscape:cx="222.35054"
+     inkscape:cy="179.75543"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .node-label { font-family: 'Times New Roman', serif; font-size: 14px; font-weight: bold; }
+      .edge-weight { font-family: 'Times New Roman', serif; font-size: 12px; }
+      .title-text { font-family: 'SimSun', serif; font-size: 14px; }
+    </style>
+  </defs>
+  <!-- 背景 -->
+  <!-- 节点坐标定义 -->
+  <!-- S: 最左侧 -->
+  <circle
+     cx="30.27174"
+     cy="166.30435"
+     r="20"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="2"
+     id="circle1" />
+  <text
+     x="30.27174"
+     y="171.30435"
+     text-anchor="middle"
+     class="node-label"
+     id="text1">S</text>
+  <!-- A: 左上 -->
+  <circle
+     cx="150.27174"
+     cy="61.304348"
+     r="20"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="2"
+     id="circle2" />
+  <text
+     x="150.27174"
+     y="66.304344"
+     text-anchor="middle"
+     class="node-label"
+     id="text2">A</text>
+  <!-- C: 左下 -->
+  <circle
+     cx="150.27174"
+     cy="271.30435"
+     r="20"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="2"
+     id="circle3" />
+  <text
+     x="150.27174"
+     y="276.30435"
+     text-anchor="middle"
+     class="node-label"
+     id="text3">C</text>
+  <!-- B: 右上 -->
+  <circle
+     cx="330.27173"
+     cy="61.304348"
+     r="20"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="2"
+     id="circle4" />
+  <text
+     x="330.27173"
+     y="66.304344"
+     text-anchor="middle"
+     class="node-label"
+     id="text4">B</text>
+  <!-- D: 右下 -->
+  <circle
+     cx="330.27173"
+     cy="271.30435"
+     r="20"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="2"
+     id="circle5" />
+  <text
+     x="330.27173"
+     y="276.30435"
+     text-anchor="middle"
+     class="node-label"
+     id="text5">D</text>
+  <!-- T: 最右侧 -->
+  <circle
+     cx="470.27173"
+     cy="166.30435"
+     r="20"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="2"
+     id="circle6" />
+  <text
+     x="470.27173"
+     y="171.30435"
+     text-anchor="middle"
+     class="node-label"
+     id="text6">T</text>
+  <!-- 非最小生成树边（浅色，较细） -->
+  <!-- S to C: 8 -->
+  <line
+     x1="45.833675"
+     y1="182.38911"
+     x2="130.22612"
+     y2="261.2522"
+     stroke="#aaaaaa"
+     stroke-width="1.63525"
+     stroke-opacity="0.6"
+     id="line6" />
+  <text
+     x="66.271736"
+     y="224.30435"
+     class="edge-weight"
+     fill="#666666"
+     id="text7">8</text>
+  <!-- A to B: 6 -->
+  <line
+     x1="170.27174"
+     y1="61.304348"
+     x2="310.27173"
+     y2="61.304348"
+     stroke="#aaaaaa"
+     stroke-width="1.5"
+     stroke-opacity="0.6"
+     id="line7" />
+  <text
+     x="240.27174"
+     y="55.304348"
+     class="edge-weight"
+     fill="#666666"
+     id="text8">6</text>
+  <!-- A to D: 4 -->
+  <line
+     x1="164.73735"
+     y1="76.804497"
+     x2="315.39853"
+     y2="256.4292"
+     stroke="#aaaaaa"
+     stroke-width="1.45405"
+     stroke-opacity="0.6"
+     id="line8" />
+  <text
+     x="240.27174"
+     y="161.30435"
+     class="edge-weight"
+     fill="#666666"
+     id="text9">4</text>
+  <!-- B to T: 5 -->
+  <line
+     x1="351.04315"
+     y1="66.560333"
+     x2="454.3916"
+     y2="152.08098"
+     stroke="#aaaaaa"
+     stroke-width="1.37621"
+     stroke-opacity="0.6"
+     id="line9" />
+  <text
+     x="409.27173"
+     y="105.30435"
+     class="edge-weight"
+     fill="#666666"
+     id="text10">5</text>
+  <!-- 最小生成树边（深色加粗，显示在上层） -->
+  <!-- S to A: 7 (MST) -->
+  <line
+     x1="44.671299"
+     y1="152.30548"
+     x2="132.61131"
+     y2="71.417336"
+     stroke="#000000"
+     stroke-width="3.81091"
+     id="line10"
+     style="stroke-width:1.5;stroke-dasharray:none" />
+  <text
+     x="77.271736"
+     y="104.30435"
+     class="edge-weight"
+     fill="#000000"
+     font-weight="bold"
+     id="text11">7</text>
+  <!-- A to C: 3 (MST) -->
+  <line
+     x1="150.27174"
+     y1="81.304344"
+     x2="150.27174"
+     y2="251.30435"
+     stroke="#000000"
+     stroke-width="3.5"
+     id="line11"
+     style="stroke-width:1.5;stroke-dasharray:none" />
+  <text
+     x="135.27174"
+     y="166.30435"
+     class="edge-weight"
+     fill="#000000"
+     font-weight="bold"
+     id="text12">3</text>
+  <!-- C to D: 3 (MST) -->
+  <line
+     x1="170.27174"
+     y1="271.30435"
+     x2="310.27173"
+     y2="271.30435"
+     stroke="#000000"
+     stroke-width="3.5"
+     id="line12"
+     style="stroke-width:1.5;stroke-dasharray:none" />
+  <text
+     x="240.27174"
+     y="286.30435"
+     class="edge-weight"
+     fill="#000000"
+     font-weight="bold"
+     id="text13">3</text>
+  <!-- B to D: 2 (MST) -->
+  <line
+     x1="330.27173"
+     y1="81.304344"
+     x2="330.27173"
+     y2="251.30435"
+     stroke="#000000"
+     stroke-width="3.5"
+     id="line13"
+     style="stroke-width:1.5;stroke-dasharray:none" />
+  <text
+     x="341.27173"
+     y="166.30435"
+     class="edge-weight"
+     fill="#000000"
+     font-weight="bold"
+     id="text14">2</text>
+  <!-- D to T: 2 (MST) -->
+  <line
+     x1="350.30618"
+     y1="271.26608"
+     x2="453.09055"
+     y2="178.48936"
+     stroke="#000000"
+     stroke-width="3.60271"
+     id="line14"
+     style="stroke-width:1.5;stroke-dasharray:none" />
+  <text
+     x="409.27173"
+     y="231.30435"
+     class="edge-weight"
+     fill="#000000"
+     font-weight="bold"
+     id="text15">2</text>
+  <!-- 标题 -->
+</svg>

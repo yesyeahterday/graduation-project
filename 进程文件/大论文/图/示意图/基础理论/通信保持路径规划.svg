@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="650" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title-text { font-family: 'SimSun', serif; font-size: 16px; font-weight: normal; }
+      .category-text { font-family: 'SimSun', serif; font-size: 14px; font-weight: normal; }
+      .algorithm-text { font-family: 'Times New Roman', serif; font-size: 12px; font-weight: normal; }
+      .header-text { font-family: 'SimSun', serif; font-size: 15px; font-weight: normal; }
+    </style>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="650" fill="white"/>
+  
+  <!-- 顶层：通信保持路径规划 -->
+  <rect x="250" y="20" width="400" height="50" fill="white" stroke="black" stroke-width="2" rx="5"/>
+  <text x="450" y="42" text-anchor="middle" class="header-text">通信保持路径规划</text>
+  <text x="450" y="57" text-anchor="middle" class="header-text" font-size="13">（三类主要研究方向）</text>
+  
+  <!-- 第三层：三类方法 -->
+  <!-- 第一类：基于启发式优化 -->
+  <rect x="80" y="100" width="180" height="45" fill="white" stroke="black" stroke-width="1.5" rx="3"/>
+  <text x="170" y="118" text-anchor="middle" class="category-text">基于启发式优化</text>
+  <text x="170" y="133" text-anchor="middle" class="category-text" font-size="12">（第一类）</text>
+  
+  <!-- 第二类：基于强化学习 -->
+  <rect x="360" y="100" width="180" height="45" fill="white" stroke="black" stroke-width="1.5" rx="3"/>
+  <text x="450" y="118" text-anchor="middle" class="category-text">基于强化学习</text>
+  <text x="450" y="133" text-anchor="middle" class="category-text" font-size="12">（第二类）</text>
+  
+  <!-- 第三类：基于改进人工势场法 -->
+  <rect x="640" y="100" width="180" height="45" fill="white" stroke="black" stroke-width="1.5" rx="3"/>
+  <text x="730" y="118" text-anchor="middle" class="category-text">基于改进人工势场法</text>
+  <text x="730" y="133" text-anchor="middle" class="category-text" font-size="12">（第三类）</text>
+  
+  <!-- 连接线：顶层到三类方法 -->
+  <line x1="450" y1="70" x2="170" y2="100" stroke="black" stroke-width="2"/>
+  <line x1="450" y1="70" x2="450" y2="100" stroke="black" stroke-width="2"/>
+  <line x1="450" y1="70" x2="730" y2="100" stroke="black" stroke-width="2"/>
+  
+  <!-- 第四层：具体算法 -->
+  <!-- 第一类：基于启发式优化的具体算法 -->
+  <!-- 第一行：Hybrid PSO 和 PPSwarm -->
+  <rect x="30" y="180" width="130" height="30" fill="white" stroke="black" stroke-width="1" rx="2"/>
+  <text x="95" y="200" text-anchor="middle" class="algorithm-text">Hybrid PSO</text>
+  
+  <rect x="180" y="180" width="130" height="30" fill="white" stroke="black" stroke-width="1" rx="2"/>
+  <text x="245" y="200" text-anchor="middle" class="algorithm-text">PPSwarm</text>
+  
+  <!-- 连接线：第一类到第一行算法 -->
+  <line x1="120" y1="145" x2="95" y2="180" stroke="black" stroke-width="1"/>
+  <line x1="220" y1="145" x2="245" y2="180" stroke="black" stroke-width="1"/>
+  
+  <!-- 第二行：MOGA -->
+  <rect x="105" y="230" width="130" height="30" fill="white" stroke="black" stroke-width="1" rx="2"/>
+  <text x="170" y="250" text-anchor="middle" class="algorithm-text">MOGA</text>
+  
+  <line x1="170" y1="145" x2="170" y2="230" stroke="black" stroke-width="1"/>
+  
+  <!-- 第二类：基于强化学习的具体算法 -->
+  <!-- 第一行：DRL-WDH 和 DRL-CC -->
+  <rect x="310" y="180" width="130" height="30" fill="white" stroke="black" stroke-width="1" rx="2"/>
+  <text x="375" y="200" text-anchor="middle" class="algorithm-text">DRL-WDH</text>
+  
+  <rect x="460" y="180" width="130" height="30" fill="white" stroke="black" stroke-width="1" rx="2"/>
+  <text x="525" y="200" text-anchor="middle" class="algorithm-text">DRL-CC</text>
+  
+  <!-- 连接线：第二类到第一行算法 -->
+  <line x1="400" y1="145" x2="375" y2="180" stroke="black" stroke-width="1"/>
+  <line x1="500" y1="145" x2="525" y2="180" stroke="black" stroke-width="1"/>
+  
+  <!-- 第二行：HRL-SA -->
+  <rect x="385" y="230" width="130" height="30" fill="white" stroke="black" stroke-width="1" rx="2"/>
+  <text x="450" y="250" text-anchor="middle" class="algorithm-text">HRL-SA</text>
+  
+  <line x1="450" y1="145" x2="450" y2="230" stroke="black" stroke-width="1"/>
+  
+  <!-- 第三类：基于改进人工势场法的具体算法 -->
+  <!-- 第一行：R-UAVNet 和 CMUPF -->
+  <rect x="590" y="180" width="130" height="30" fill="white" stroke="black" stroke-width="1" rx="2"/>
+  <text x="655" y="200" text-anchor="middle" class="algorithm-text">R-UAVNet</text>
+  
+  <rect x="740" y="180" width="130" height="30" fill="white" stroke="black" stroke-width="1" rx="2"/>
+  <text x="805" y="200" text-anchor="middle" class="algorithm-text">CMUPF</text>
+  
+  <!-- 连接线：第三类到第一行算法 -->
+  <line x1="680" y1="145" x2="655" y2="180" stroke="black" stroke-width="1"/>
+  <line x1="780" y1="145" x2="805" y2="180" stroke="black" stroke-width="1"/>
+  
+  <!-- 第二行：DAFT-FC 和 AJ-APF -->
+  <rect x="590" y="230" width="130" height="30" fill="white" stroke="black" stroke-width="1" rx="2"/>
+  <text x="655" y="250" text-anchor="middle" class="algorithm-text">DAFT-FC</text>
+  
+  <rect x="740" y="230" width="130" height="30" fill="white" stroke="black" stroke-width="1" rx="2"/>
+  <text x="805" y="250" text-anchor="middle" class="algorithm-text">AJ-APF</text>
+  
+  <!-- 连接线：第三类到第二行算法 -->
+  <line x1="655" y1="145" x2="655" y2="230" stroke="black" stroke-width="1"/>
+  <line x1="805" y1="145" x2="805" y2="230" stroke="black" stroke-width="1"/>
+  
+  <!-- 图标题 -->
+  <text x="450" y="630" text-anchor="middle" class="title-text" font-size="14">图1-3 多智能体路径规划算法分类</text>
+  <text x="450" y="645" text-anchor="middle" class="algorithm-text" font-size="11">Fig. 1-3 Classification of Multi-Agent Path Planning Algorithms</text>
+</svg>
