@@ -1,0 +1,52 @@
+================================================================================
+Pareto Front Performance Metrics
+================================================================================
+
+Algorithm            N        HV              Spread (Δ)      Spacing (S)    
+--------------------------------------------------------------------------------
+MPG-NSGA-II          183      0.770546        0.910621        0.005394       
+NSGA-II              251      0.600510        0.961035        0.006870       
+
+================================================================================
+Metric Interpretation Guide:
+--------------------------------------------------------------------------------
+1. HV (Hypervolume): Higher is better. Measures convergence and diversity.
+   - Excellent: HV > 0.8
+   - Good: 0.5 < HV <= 0.8
+   - Fair: 0.2 < HV <= 0.5
+   - Poor: HV <= 0.2
+
+2. Spread (Δ): Lower is better. Measures distribution uniformity.
+   - Excellent: Δ < 0.5
+   - Good: 0.5 <= Δ < 1.0
+   - Fair: 1.0 <= Δ < 2.0
+   - Poor: Δ >= 2.0
+
+3. Spacing (S): Lower is better. Measures distance uniformity.
+   - Excellent: S < 0.1
+   - Good: 0.1 <= S < 0.3
+   - Fair: 0.3 <= S < 0.5
+   - Poor: S >= 0.5
+
+Comprehensive Evaluation:
+- Prioritize HV for overall performance comparison
+- Use Spread and Spacing to assess solution distribution quality
+- When HV values are similar, prefer algorithms with lower Spread and Spacing
+
+================================================================================
+Coverage (C-metric) Comparison:
+--------------------------------------------------------------------------------
+Coverage(A, B) = percentage of solutions in B dominated by A
+C(A, B) = 1.0 means all solutions in B are dominated by A
+C(A, B) = 0.0 means no solution in B is dominated by A
+
+Algorithm           MPG-NSGA-II    NSGA-II        
+--------------------------------------------------------------------------------
+MPG-NSGA-II         -              0.7052         
+NSGA-II             0.2186         -              
+
+Interpretation:
+- C(A, B) > 0.5: Algorithm A significantly dominates algorithm B
+- C(A, B) < 0.5: Algorithm A does not significantly dominate algorithm B
+- C(A, B) = 0.0: Algorithm A does not dominate any solution in B
+- C(A, B) = 1.0: Algorithm A dominates all solutions in B

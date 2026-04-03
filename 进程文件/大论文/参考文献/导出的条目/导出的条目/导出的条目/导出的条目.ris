@@ -1,0 +1,20 @@
+TY  - JOUR
+TI  - Differential Evolution and Neural Network-Based Approach to Optimize Coverage Area of Wireless Sensor Network
+AU  - Das, Victor
+AU  - Banerjee, Avishek
+AU  - Nath, Ira
+AU  - Obaidat, Mohammad S.
+AU  - Ray, Niranjan K.
+T2  - SN Computer Science
+AB  - This paper presents a novel approach to optimize the coverage area of wireless sensor networks using a hybrid model combining differential evolution and neural networks. The proposed method enhances the placement and coverage efficiency of sensor nodes, addressing key challenges like energy consumption, node redundancy, and communication overhead. DE is utilized to explore optimal sensor placements, while neural networks predict network performance and guide the evolutionary process. The synergy between differential evolution’s global optimization and neural networks predictive capabilities leads to improved coverage and network longevity. A differential evolution-based hybrid approach ensures strategic placement of the sensor nodes with zero blind spots. Blind spots refer to sensor nodes in close range that perform unnecessary data transmission, leading to overlapping coverage. The model was designed via a dense neural network with several sensors and communication range as an input. The experimental results reveal that the proposed hybrid model can cover 52.3%, 54.7%, and 100% with 5 sensors for population sizes 5, 10, and 15. Separate observations were obtained as 54.7%, 63.2%, and 92.5% with 8 to 10 sensors which is significantly better than other traditional methods.
+DA  - 2025/05/28/
+PY  - 2025
+DO  - 10.1007/s42979-025-04039-5
+VL  - 6
+IS  - 5
+SP  - 506
+J2  - SN Computer Science
+SN  - 2661-8907
+UR  - https://doi.org/10.1007/s42979-025-04039-5
+ER  - 
+

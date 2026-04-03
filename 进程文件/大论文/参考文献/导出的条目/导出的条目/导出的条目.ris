@@ -1,0 +1,18 @@
+TY  - JOUR
+TI  - Differential Evolution – A Simple and Efficient Heuristic for global Optimization over Continuous Spaces
+AU  - Storn, Rainer
+AU  - Price, Kenneth
+T2  - Journal of Global Optimization
+AB  - A new heuristic approach for minimizing possiblynonlinear and non-differentiable continuous spacefunctions is presented. By means of an extensivetestbed it is demonstrated that the new methodconverges faster and with more certainty than manyother acclaimed global optimization methods. The newmethod requires few control variables, is robust, easyto use, and lends itself very well to parallelcomputation.
+DA  - 1997/12/01/
+PY  - 1997
+DO  - 10.1023/A:1008202821328
+VL  - 11
+IS  - 4
+SP  - 341
+EP  - 359
+J2  - Journal of Global Optimization
+SN  - 1573-2916
+UR  - https://doi.org/10.1023/A:1008202821328
+ER  - 
+

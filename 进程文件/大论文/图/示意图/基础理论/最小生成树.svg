@@ -20,8 +20,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.4533333"
-     inkscape:cx="222.35054"
-     inkscape:cy="179.75543"
+     inkscape:cx="222.35055"
+     inkscape:cy="114.53805"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
      inkscape:window-x="-8"
@@ -53,7 +53,7 @@
      y="171.30435"
      text-anchor="middle"
      class="node-label"
-     id="text1">S</text>
+     id="text1">E</text>
   <!-- A: 左上 -->
   <circle
      cx="150.27174"
@@ -128,24 +128,27 @@
      y="171.30435"
      text-anchor="middle"
      class="node-label"
-     id="text6">T</text>
+     id="text6">F</text>
   <!-- 非最小生成树边（浅色，较细） -->
   <!-- S to C: 8 -->
   <line
-     x1="45.833675"
-     y1="182.38911"
-     x2="130.22612"
-     y2="261.2522"
+     x1="47.056503"
+     y1="180.35107"
+     x2="131.44894"
+     y2="259.21414"
      stroke="#aaaaaa"
      stroke-width="1.63525"
      stroke-opacity="0.6"
-     id="line6" />
+     id="line6"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-dasharray:none" />
   <text
-     x="66.271736"
-     y="224.30435"
+     x="69.595703"
+     y="228.94531"
      class="edge-weight"
-     fill="#666666"
-     id="text7">8</text>
+     fill="#000000"
+     font-weight="bold"
+     id="text11"
+     style="font-size:12px;font-family:'Times New Roman', serif">7</text>
   <!-- A to B: 6 -->
   <line
      x1="170.27174"
@@ -155,13 +158,8 @@
      stroke="#aaaaaa"
      stroke-width="1.5"
      stroke-opacity="0.6"
-     id="line7" />
-  <text
-     x="240.27174"
-     y="55.304348"
-     class="edge-weight"
-     fill="#666666"
-     id="text8">6</text>
+     id="line7"
+     style="fill:#000000;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-dasharray:none" />
   <!-- A to D: 4 -->
   <line
      x1="164.73735"
@@ -171,13 +169,15 @@
      stroke="#aaaaaa"
      stroke-width="1.45405"
      stroke-opacity="0.6"
-     id="line8" />
+     id="line8"
+     style="stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-dasharray:none" />
   <text
      x="240.27174"
      y="161.30435"
      class="edge-weight"
      fill="#666666"
-     id="text9">4</text>
+     id="text9"
+     style="fill:#000000;fill-opacity:1">4</text>
   <!-- B to T: 5 -->
   <line
      x1="351.04315"
@@ -187,13 +187,15 @@
      stroke="#aaaaaa"
      stroke-width="1.37621"
      stroke-opacity="0.6"
-     id="line9" />
+     id="line9"
+     style="stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-dasharray:none" />
   <text
      x="409.27173"
      y="105.30435"
      class="edge-weight"
      fill="#666666"
-     id="text10">5</text>
+     id="text10"
+     style="fill:#000000">5</text>
   <!-- 最小生成树边（深色加粗，显示在上层） -->
   <!-- S to A: 7 (MST) -->
   <line
@@ -204,14 +206,7 @@
      stroke="#000000"
      stroke-width="3.81091"
      id="line10"
-     style="stroke-width:1.5;stroke-dasharray:none" />
-  <text
-     x="77.271736"
-     y="104.30435"
-     class="edge-weight"
-     fill="#000000"
-     font-weight="bold"
-     id="text11">7</text>
+     style="stroke-width:2;stroke-dasharray:none" />
   <!-- A to C: 3 (MST) -->
   <line
      x1="150.27174"
@@ -221,14 +216,7 @@
      stroke="#000000"
      stroke-width="3.5"
      id="line11"
-     style="stroke-width:1.5;stroke-dasharray:none" />
-  <text
-     x="135.27174"
-     y="166.30435"
-     class="edge-weight"
-     fill="#000000"
-     font-weight="bold"
-     id="text12">3</text>
+     style="stroke-width:1.5;stroke-dasharray:none;stroke:#aaaaaa;stroke-opacity:0.60000002" />
   <!-- C to D: 3 (MST) -->
   <line
      x1="170.27174"
@@ -238,7 +226,7 @@
      stroke="#000000"
      stroke-width="3.5"
      id="line12"
-     style="stroke-width:1.5;stroke-dasharray:none" />
+     style="stroke-width:1.5;stroke-dasharray:none;stroke:#aaaaaa;stroke-opacity:0.60000002" />
   <text
      x="240.27174"
      y="286.30435"
@@ -255,14 +243,15 @@
      stroke="#000000"
      stroke-width="3.5"
      id="line13"
-     style="stroke-width:1.5;stroke-dasharray:none" />
+     style="stroke-width:1.5;stroke-dasharray:none;stroke:#aaaaaa;stroke-opacity:0.60000002" />
   <text
      x="341.27173"
      y="166.30435"
      class="edge-weight"
      fill="#000000"
      font-weight="bold"
-     id="text14">2</text>
+     id="text14"
+     style="fill:#000000;fill-opacity:0.60000002">2</text>
   <!-- D to T: 2 (MST) -->
   <line
      x1="350.30618"
@@ -272,7 +261,7 @@
      stroke="#000000"
      stroke-width="3.60271"
      id="line14"
-     style="stroke-width:1.5;stroke-dasharray:none" />
+     style="stroke-width:1.5;stroke-dasharray:none;stroke:#aaaaaa;stroke-opacity:0.60000002" />
   <text
      x="409.27173"
      y="231.30435"
@@ -281,4 +270,26 @@
      font-weight="bold"
      id="text15">2</text>
   <!-- 标题 -->
+  <text
+     x="242.80664"
+     y="56.109371"
+     class="edge-weight"
+     fill="#000000"
+     font-weight="bold"
+     id="text12-4"
+     style="font-size:12px;font-family:'Times New Roman', serif">3</text>
+  <text
+     x="137.48438"
+     y="168.10938"
+     class="edge-weight"
+     fill="#666666"
+     id="text8"
+     style="font-size:12px;font-family:'Times New Roman', serif;fill:#000000">6</text>
+  <text
+     x="78.273438"
+     y="105.10938"
+     class="edge-weight"
+     fill="#666666"
+     id="text7"
+     style="font-size:12px;font-family:'Times New Roman', serif;fill:#000000">8</text>
 </svg>

@@ -1,0 +1,31 @@
+TY  - JOUR
+TI  - Augmented Node Placement Model in t-WSN Through Multiobjective Approach.
+AU  - Thirugnansambandam, Kalaipriyan
+AU  - Bhattacharyya, Debnath
+AU  - Frnda, Jaroslav
+AU  - Anguraj, Dinesh Kumar
+AU  - Nedoma, Jan
+T2  - Computers, Materials & Continua
+AB  - In Wireless Sensor Network (WSN), coverage and connectivity are the vital challenges in the target-based region. The linear objective is to find the positions to cover the complete target nodes and connectivity between each sensor for data forwarding towards the base station given a grid with target points and a potential sensor placement position. In this paper, a multiobjective problem on target-based WSN (t-WSN) is derived, which minimizes the number of deployed nodes, and maximizes the cost of coverage and sensing range. An Evolutionary-based Non-Dominated Sorting Genetic Algorithm-II (NSGA-II) is incorporated to tackle this multiobjective problem efficiently. Multiobjective problems are intended to solve different objectives of a problem simultaneously. Bio-inspired algorithms address the NP-hard problem most effectively in recent years. In NSGA-II, the Non-Dominated sorting preserves the better solution in different objectives simultaneously using dominance relation. In the diversity maintenance phase, density estimation and crowd comparison are the two components that balance the exploration and exploitation phase of the algorithm. Performance of NSGA-II on this multiobjective problem is evaluated in terms of performance indicators Overall Non-dominated Vector Generation (ONGV) and Spacing (SP). The simulation results show the proposed method performs outperforms the existing algorithms in different aspects of the model.
+DA  - 2021/12/01/
+PY  - 2021
+DO  - 10.32604/cmc.2021.018939
+DP  - EBSCOhost
+VL  - 69
+IS  - 3
+SP  - 3629
+EP  - 3644
+J2  - Computers, Materials & Continua
+LA  - eng
+PB  - Tech Science Press
+SN  - 1546-2218
+UR  - https://research.ebsco.com/linkprocessor/plink?id=d30cb609-4fbe-3737-ba94-62858e925a81
+AN  - 152050671
+DB  - Complementary Index
+KW  - KEY performance indicators (Management)
+KW  - NP-hard problems
+KW  - POSITION sensors
+KW  - SENSOR placement
+KW  - WIRELESS sensor networks
+ER  - 
+
