@@ -6,6 +6,9 @@
    id="svg16"
    sodipodi:docname="最小生成树.svg"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   inkscape:export-filename="png-最小生成树.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -19,9 +22,9 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.4533333"
-     inkscape:cx="222.35055"
-     inkscape:cy="114.53805"
+     inkscape:zoom="4.9066666"
+     inkscape:cx="111.27718"
+     inkscape:cy="131.45381"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
      inkscape:window-x="-8"
@@ -132,15 +135,15 @@
   <!-- 非最小生成树边（浅色，较细） -->
   <!-- S to C: 8 -->
   <line
-     x1="47.056503"
-     y1="180.35107"
-     x2="131.44894"
-     y2="259.21414"
+     x1="45.018459"
+     y1="178.31303"
+     x2="132.60184"
+     y2="260.51114"
      stroke="#aaaaaa"
      stroke-width="1.63525"
      stroke-opacity="0.6"
      id="line6"
-     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-dasharray:none" />
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <text
      x="69.595703"
      y="228.94531"
@@ -162,15 +165,15 @@
      style="fill:#000000;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-dasharray:none" />
   <!-- A to D: 4 -->
   <line
-     x1="164.73735"
-     y1="76.804497"
+     x1="164.12593"
+     y1="75.989273"
      x2="315.39853"
      y2="256.4292"
      stroke="#aaaaaa"
      stroke-width="1.45405"
      stroke-opacity="0.6"
      id="line8"
-     style="stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-dasharray:none" />
+     style="stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <text
      x="240.27174"
      y="161.30435"
@@ -180,15 +183,15 @@
      style="fill:#000000;fill-opacity:1">4</text>
   <!-- B to T: 5 -->
   <line
-     x1="351.04315"
-     y1="66.560333"
-     x2="454.3916"
-     y2="152.08098"
+     x1="350.17847"
+     y1="65.767723"
+     x2="454.82391"
+     y2="152.65742"
      stroke="#aaaaaa"
      stroke-width="1.37621"
      stroke-opacity="0.6"
      id="line9"
-     style="stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-dasharray:none" />
+     style="stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <text
      x="409.27173"
      y="105.30435"

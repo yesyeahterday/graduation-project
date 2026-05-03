@@ -20,8 +20,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.208"
-     inkscape:cx="256.11413"
-     inkscape:cy="124.0942"
+     inkscape:cx="255.88768"
+     inkscape:cy="160.32609"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
      inkscape:window-x="-8"
@@ -35,7 +35,10 @@
        height="391.11581"
        id="page25"
        margin="0"
-       bleed="0" />
+       bleed="0"
+       inkscape:export-filename="png-帕累托前沿.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
     <inkscape:page
        x="722.47867"
        y="243.3882"

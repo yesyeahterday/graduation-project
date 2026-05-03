@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="7.8680135"
-     inkscape:cx="116.92913"
-     inkscape:cy="82.358781"
+     inkscape:zoom="5.5635257"
+     inkscape:cx="74.143632"
+     inkscape:cy="61.831295"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer2">
     <inkscape:page
        x="0"
        y="0"
@@ -39,7 +39,10 @@
        height="41.049435"
        id="page19"
        margin="0"
-       bleed="0" />
+       bleed="0"
+       inkscape:export-filename="png-apf.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
     <inkscape:page
        x="59.655571"
        y="9.9538038"
@@ -49,6 +52,23 @@
   </sodipodi:namedview>
   <defs
      id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
     <g
        id="g4633">
       <g
@@ -582,7 +602,7 @@
     </g>
   </defs>
   <path
-     style="fill:none;stroke:#000000;stroke-width:0.140195;stroke-opacity:0.929412"
+     style="fill:none;stroke:#000000;stroke-width:0.10583333;stroke-opacity:0.929412;stroke-dasharray:none"
      d="m 4.452471,34.838517 c 0.02816,0.0258 7.429232,-8.02263 18.563382,-9.61467 11.16447,-1.74412 5.7631,-0.8674 11.40225,-1.62114"
      id="path1"
      sodipodi:nodetypes="ccc" />
@@ -592,37 +612,39 @@
      inkscape:label="图层 2"
      transform="translate(-87.314237,-110.80728)">
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.147972;stroke-dasharray:0.591889, 0.591889;stroke-dashoffset:0;stroke-opacity:0.929412"
+       style="fill:none;stroke:#000000;stroke-width:0.10583333;stroke-dasharray:0.42333406,0.42333406;stroke-dashoffset:0;stroke-opacity:0.929412"
        d="m 121.64667,134.33502 c 0,0 4.33746,-0.65472 5.65247,-3.65395 l 5.00382,-14.4499"
        id="path3"
        sodipodi:nodetypes="ccc" />
     <g
        id="path6"
-       style="opacity:1"
+       style="opacity:1;stroke-width:0.9577329;stroke-dasharray:none"
        transform="matrix(1,0,0,1.2211138,0,-29.965232)">
       <path
-         style="baseline-shift:baseline;display:inline;overflow:visible;fill-rule:evenodd;enable-background:accumulate;stop-color:#000000;stop-opacity:1;stroke-width:0.99996364;stroke-dasharray:none"
+         style="baseline-shift:baseline;display:inline;overflow:visible;fill-rule:evenodd;enable-background:accumulate;stop-color:#000000;stop-opacity:1;stroke-width:0.9577329;stroke-dasharray:none"
          d="m 121.91406,135.51953 0.0117,4.41797 h 0.15039 l -0.0137,-4.41797 z"
          id="path23" />
       <g
-         id="g22">
+         id="g22"
+         style="stroke-width:0.9577329;stroke-dasharray:none">
         <path
-           style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+           style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;enable-background:accumulate;stop-color:#000000;stop-opacity:1;stroke-width:0.9577329;stroke-dasharray:none"
            d="m 122.39648,139.4707 -0.39453,0.39844 -0.39843,-0.39453 -0.10547,0.10547 0.5039,0.50195 0.50196,-0.50391 z"
            id="path22" />
       </g>
     </g>
     <g
        id="path8"
-       style="opacity:1">
+       style="opacity:1;stroke-width:0.70555556;stroke-dasharray:none">
       <path
-         style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         style="baseline-shift:baseline;display:inline;overflow:visible;fill-rule:evenodd;enable-background:accumulate;stop-color:#000000;stop-opacity:1;stroke-width:0.70555556;stroke-dasharray:none"
          d="m 126.39844,127.82227 -4.49805,6.60937 0.12305,0.084 4.5,-6.60937 z"
          id="path21" />
       <g
-         id="g19">
+         id="g19"
+         style="stroke-width:0.70555556;stroke-dasharray:none">
         <path
-           style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+           style="baseline-shift:baseline;display:inline;overflow:visible;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1;stroke-width:0.70555556;stroke-dasharray:none"
            d="m 126.54102,127.74609 -0.69727,0.13282 0.0273,0.14648 0.55079,-0.10547 0.10546,0.55274 0.14649,-0.0293 z"
            id="path20" />
       </g>
@@ -631,15 +653,16 @@
        id="path9"
        inkscape:transform-center-x="-0.31241133"
        inkscape:transform-center-y="0.80247817"
-       style="opacity:1">
+       style="opacity:1;stroke-width:0.70555556;stroke-dasharray:none">
       <path
-         style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         style="baseline-shift:baseline;display:inline;overflow:visible;fill-rule:evenodd;enable-background:accumulate;stop-color:#000000;stop-opacity:1;stroke-width:0.70555556;stroke-dasharray:none"
          d="m 127.04492,132.57422 -5.11719,1.78515 0.0488,0.14063 5.11719,-1.78516 z"
          id="path4" />
       <g
-         id="g2">
+         id="g2"
+         style="stroke-width:0.70555556;stroke-dasharray:none">
         <path
-           style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+           style="baseline-shift:baseline;display:inline;overflow:visible;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1;stroke-width:0.70555556;stroke-dasharray:none"
            d="m 126.56445,132.28711 -0.0644,0.13672 0.50391,0.24219 -0.24414,0.50585 0.13671,0.0664 0.3086,-0.64062 z"
            id="path2" />
       </g>
@@ -896,30 +919,33 @@
            dy="0"
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.73724px;font-family:'Times New Roman';fill:#000000;stroke-width:0.264583"
            id="tspan10"> </tspan></tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-opacity:1"
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.10583333;stroke-dasharray:none;stroke-opacity:1"
        id="rect22"
        width="11.688999"
        height="11.150955"
        x="90.109245"
        y="112.7875"
-       ry="0" />
+       ry="0"
+       inkscape:path-effect="#path-effect1"
+       sodipodi:type="rect"
+       d="m 90.109245,112.7875 h 11.688995 v 11.15095 H 90.109245 Z" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.10583333;stroke-dasharray:none;stroke-opacity:1"
        id="rect22-7"
-       width="8.4957752"
+       width="8.4960003"
        height="11.724035"
        x="114.28532"
        y="120.13046" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.10583333;stroke-dasharray:none;stroke-opacity:1"
        id="rect22-7-8"
        width="8.5845337"
        height="4.6837182"
        x="106.4573"
        y="140.00047" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.10583333;stroke-dasharray:none;stroke-opacity:1"
        id="rect22-3"
        width="11.688999"
        height="11.150955"
@@ -1065,7 +1091,7 @@
     </g>
   </g>
   <rect
-     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.111703;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.10583333;stroke-dasharray:none;stroke-opacity:1"
      id="rect22-7-8-6"
      width="4.7220154"
      height="4.7220154"

@@ -7,6 +7,9 @@
    id="svg15"
    sodipodi:docname="nsga2-new.svg"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   inkscape:export-filename="png-nsga2-new.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.3908814"
-     inkscape:cx="162.12741"
-     inkscape:cy="531.31776"
+     inkscape:cx="161.76793"
+     inkscape:cy="300.52886"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
      inkscape:window-x="-8"
@@ -314,7 +317,7 @@
        style="stroke-width:0.265"
        sodipodi:role="line"
        x="105.57606"
-       y="69.870705"></tspan></text>
+       y="69.870705" /></text>
   <text
      xml:space="preserve"
      style="font-size:2.11667px;line-height:1.25;font-family:SimSun;-inkscape-font-specification:SimSun;writing-mode:vertical-lr;direction:ltr;fill:#ffffff;stroke:#89d2f7;stroke-width:0.264999;stroke-dasharray:none"
@@ -325,7 +328,7 @@
        id="tspan28"
        style="stroke-width:0.265"
        x="31.636805"
-       y="59.377327"></tspan></text>
+       y="59.377327" /></text>
   <path
      d="m 78.991628,70.676729 h 0.904033 v 0.07072 h -0.04969 q -0.04969,0 -0.145257,0.04396 -0.09556,0.04396 -0.173926,0.126144 -0.07836,0.08218 -0.193039,0.267578 l -0.624986,0.984307 v 0.649833 q 0,0.238909 0.05352,0.298159 0.07263,0.08027 0.229353,0.08027 h 0.0841 v 0.07072 H 77.97483 V 73.1977 h 0.09174 q 0.16437,0 0.233176,-0.09939 0.04205,-0.06116 0.04205,-0.279046 v -0.613519 l -0.710994,-1.085604 q -0.126144,-0.191127 -0.172015,-0.238909 -0.04396,-0.04778 -0.185393,-0.114677 -0.03823,-0.01911 -0.110854,-0.01911 v -0.07072 h 1.108539 v 0.07072 h -0.05734 q -0.08983,0 -0.166281,0.04205 -0.07454,0.04205 -0.07454,0.126145 0,0.0688 0.116588,0.248465 l 0.54089,0.835227 0.508399,-0.798913 q 0.114677,-0.179659 0.114677,-0.267578 0,-0.05352 -0.02867,-0.09556 -0.02676,-0.04205 -0.07836,-0.06498 -0.0516,-0.02485 -0.154813,-0.02485 z"
      id="text4-4"

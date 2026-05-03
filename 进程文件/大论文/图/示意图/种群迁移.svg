@@ -35,7 +35,10 @@
        height="385.92746"
        id="page13"
        margin="0"
-       bleed="0" />
+       bleed="0"
+       inkscape:export-filename="png-多种群迁移.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
     <inkscape:page
        x="636.77533"
        y="125.9058"
@@ -405,36 +408,6 @@
      rx="69.510872"
      ry="68.60508" />
   <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.35;font-family:SimSun;-inkscape-font-specification:'SimSun, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:0.682065;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:0;stroke-opacity:0.560784"
-     x="205.91418"
-     y="293.14304"
-     id="text13"><tspan
-       sodipodi:role="line"
-       id="tspan13"
-       x="205.91418"
-       y="293.14304">高覆盖目标个体</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.35;font-family:SimSun;-inkscape-font-specification:'SimSun, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:0.682065;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:0;stroke-opacity:0.560784"
-     x="205.91418"
-     y="343.85913"
-     id="text13-5"><tspan
-       sodipodi:role="line"
-       id="tspan13-4"
-       x="205.91418"
-       y="343.85913">高连通目标个体</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.35;font-family:SimSun;-inkscape-font-specification:'SimSun, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:0.682065;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:0;stroke-opacity:0.560784"
-     x="389.75748"
-     y="183.18159"
-     id="text13-2"><tspan
-       sodipodi:role="line"
-       id="tspan13-3"
-       x="389.75748"
-       y="183.18159">精英个体</tspan></text>
-  <text
      x="481.28864"
      y="327.71774"
      text-anchor="middle"
@@ -448,16 +421,6 @@
      font-size="12px"
      id="text4-1-8"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:SimSun;-inkscape-font-specification:'SimSun, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle">主种群</text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.35;font-family:SimSun;-inkscape-font-specification:'SimSun, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:0.682065;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:0;stroke-opacity:0.560784"
-     x="110.06422"
-     y="183.18159"
-     id="text13-2-2"><tspan
-       sodipodi:role="line"
-       id="tspan13-3-7"
-       x="110.06422"
-       y="183.18159">精英个体</tspan></text>
   <line
      x1="334.77203"
      y1="142.61256"
@@ -480,7 +443,7 @@
      style="marker-end:url(#arrow-6)" />
   <g
      inkscape:label=""
-     transform="translate(305.70997,283.68124)"
+     transform="translate(305.29511,282.57124)"
      id="g16">
     <g
        fill="#000000"
@@ -563,7 +526,7 @@
   </g>
   <g
      inkscape:label=""
-     transform="translate(304.88026,335.30315)"
+     transform="translate(305.24511,336.15026)"
      id="g17">
     <g
        fill="#000000"
@@ -646,7 +609,7 @@
   </g>
   <g
      inkscape:label=""
-     transform="translate(111.16893,194.33132)"
+     transform="translate(109.9112,194.33132)"
      id="g18">
     <g
        fill="#000000"
@@ -729,7 +692,7 @@
   </g>
   <g
      inkscape:label=""
-     transform="translate(390.81218,194.29382)"
+     transform="translate(393.26969,194.29382)"
      id="g19">
     <g
        fill="#000000"
@@ -903,4 +866,32 @@
       </g>
     </g>
   </g>
+  <text
+     x="252.2218"
+     y="292.22144"
+     text-anchor="middle"
+     font-size="12px"
+     id="text4-1-4"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:SimSun;-inkscape-font-specification:'SimSun, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle">高覆盖目标个体</text>
+  <text
+     x="252.2218"
+     y="343.80045"
+     text-anchor="middle"
+     font-size="12px"
+     id="text4-1-4-2"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:SimSun;-inkscape-font-specification:'SimSun, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle">高连通目标个体</text>
+  <text
+     x="135.47308"
+     y="182.46782"
+     text-anchor="middle"
+     font-size="12px"
+     id="text4-1-4-5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:SimSun;-inkscape-font-specification:'SimSun, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle">精英个体</text>
+  <text
+     x="418.88159"
+     y="183.94971"
+     text-anchor="middle"
+     font-size="12px"
+     id="text4-1-4-5-1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:SimSun;-inkscape-font-specification:'SimSun, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle">精英个体</text>
 </svg>

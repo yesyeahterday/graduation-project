@@ -24,7 +24,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="2.7817628"
-     inkscape:cx="14.918598"
+     inkscape:cx="15.09834"
      inkscape:cy="81.243448"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
@@ -55,7 +55,10 @@
        height="43.383587"
        id="page47"
        margin="0"
-       bleed="0" />
+       bleed="0"
+       inkscape:export-filename="png-回溯.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
     <inkscape:page
        x="-56.167114"
        y="-21.562103"

@@ -25,12 +25,12 @@
      inkscape:document-units="mm"
      inkscape:zoom="3.9340067"
      inkscape:cx="137.26464"
-     inkscape:cy="92.145243"
-     inkscape:window-width="1292"
-     inkscape:window-height="1252"
-     inkscape:window-x="1234"
-     inkscape:window-y="104"
-     inkscape:window-maximized="0"
+     inkscape:cy="92.272339"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showguides="false">
     <sodipodi:guide
@@ -55,7 +55,10 @@
        height="43.383587"
        id="page47"
        margin="0"
-       bleed="0" />
+       bleed="0"
+       inkscape:export-filename="png-重连.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
     <inkscape:page
        x="-56.167114"
        y="-21.562103"

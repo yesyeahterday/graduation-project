@@ -20,8 +20,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.8284271"
-     inkscape:cx="245.54283"
-     inkscape:cy="247.48737"
+     inkscape:cx="245.36606"
+     inkscape:cy="190.91883"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
      inkscape:window-x="-8"
@@ -35,7 +35,10 @@
        height="380.22742"
        id="page18"
        margin="0"
-       bleed="0" />
+       bleed="0"
+       inkscape:export-filename="png-拥挤度距离.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
     <inkscape:page
        x="555.25362"
        y="266.30435"

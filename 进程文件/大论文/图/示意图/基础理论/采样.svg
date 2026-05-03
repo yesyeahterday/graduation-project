@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2.7817628"
-     inkscape:cx="30.016937"
-     inkscape:cy="73.694277"
+     inkscape:zoom="3.9340067"
+     inkscape:cx="40.925197"
+     inkscape:cy="95.322665"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
      inkscape:window-x="-8"
@@ -55,7 +55,10 @@
        height="43.383587"
        id="page47"
        margin="0"
-       bleed="0" />
+       bleed="0"
+       inkscape:export-filename="png-采样.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
     <inkscape:page
        x="-56.167114"
        y="-21.562103"
@@ -429,9 +432,9 @@
          x="67.389946"
          y="90.929352" /></text>
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-opacity:1"
        id="rect22"
-       width="11.688999"
+       width="11.689"
        height="11.150955"
        x="139.67142"
        y="111.99311"

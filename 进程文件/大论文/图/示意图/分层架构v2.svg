@@ -21,7 +21,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.5012421"
-     inkscape:cx="318.73607"
+     inkscape:cx="318.40301"
      inkscape:cy="278.4361"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
@@ -36,7 +36,10 @@
        height="538.48389"
        id="page1"
        margin="0"
-       bleed="0" />
+       bleed="0"
+       inkscape:export-filename="png-智能组网.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
     <inkscape:page
        x="525.56481"
        y="223.81466"
